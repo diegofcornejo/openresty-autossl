@@ -1,18 +1,19 @@
-# openresty-autossl
-OpenResty
-- Autossl
--- Local Store nginx.store.conf
--- Redis Store nginx.redis.conf
-- Dynamic Proxy
--- MySQL
+# OpenResty
+## Autossl
+- Local Store and MySQL verification (nginx.store.conf)
+- Redis Store and MySQL verification (nginx.redis.conf)
+- Redis Full, store and verification (nginx.fullredis.conf)
 
-=======INSTALLATION=======
-https://www.storyblok.com/tp/automatic-ssl-multi-tenant
+## Dynamic Proxy
+- MySQL (resty-mysql)
+
+## INSTALLATION
+- https://www.storyblok.com/tp/automatic-ssl-multi-tenant
 
 
-======References==========
-https://changelogfy.com/blog/how-i-setup-custom-domain-ssl-with-lets-encrypt-for-changelog-pages/
-https://blog.readme.com/auto-generating-ssl-certificates-for-custom-domains-using-lets-encrypt/
+### References
+- https://changelogfy.com/blog/how-i-setup-custom-domain-ssl-with-lets-encrypt-for-changelog-pages/
+- https://blog.readme.com/auto-generating-ssl-certificates-for-custom-domains-using-lets-encrypt/
 
 Copy the IPv4 Public IP from the EC2 instance dashboard and connect to your instance using your private key.
 
